@@ -1,105 +1,202 @@
 <html>
+
 <head>
-    <title>HW8 Austin Aguilera MIS</title>
+    <title>AUstin Aguilera</title>
+
     <style>
         #maindiv{
             width:1200px;
-            margin-left:auto;
             margin-right:auto;
+            margin-left:auto;
         }
-        #header {
-            color: dodgerblue;
-            font-size: 20pt;
-            font-weight: bold;
+        #header{
+            color:dodgerblue;
+            font-size:20pt;
+            font-weight:bold;
         }
-        #content1 {
-            display: flex;
-            flex-direction: row;
-            width: 800px;
-        }
-        #content2{
-
+        #content1{
+            display:flex;
+            flex-direction:row;
+            
         }
         #leftdiv{
             width:400px;
             display:flex;
             flex-direction:column;
-            align-items:center;
+            text-align:center;
             justify-content:center;
-
         }
         #rightdiv{
+            width:800px;
+        }
+        #lowerdiv{
+            display:flex;
+            flex-direction:row;
+        }
+        #idiv{
+            display:flex;
+            flex-direction:column;
+        }
+        #ediv{
+            display:flex;
+            flex-direction:column;
+        }
+        #content2{
+            background-color:#ededed;
+        }
+        #footer{
+            background-color:#faf7f7;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
 
         }
 
 
     </style>
+
+
+
 </head>
 
 <body>
+
     <div id="maindiv">
+
         <div id="header">
-            <span style="font-size:20pt; font-weight:bold; color:dodgerblue;">Austin Aguilera's Website</span>
+            Austin Aguilera's Website
         </div>
 
         <div id="content1">
             <div id="leftdiv">
                 <div>
-                    <img src="static/head1.png" style="border-radius:50%; width:200px;" />
-                    <div style="color:dimgrey; font-size:30px;">Austin Aguilera</div>
-                    <div style="color: dimgrey; font-size: 20px;">Student in Management Information Systems</div>
-                    <div style="color: dimgrey; font-size: 20px;">The University of Oklahoma</div>
-                    <div>
-                        <a href="mailto:austin.b.aguilera-1@ou.edu" target="_blank">
-                            <img style="width:30px;" src="static/email.png" />
-                        </a>
-                        <a href="https://linkedin.com">
-                            <img style="width:30px;" src="static/linkedin.png" />
-                        </a>
-                        <a href="https://twitter.com">
-                            <img style="width:30px;" src="static/twitter.png" />
-                        </a>
-                        <a href="https://instagram.com">
-                            <img style="width:30px;" src="static/instagram.png" />
-                        </a>
-
-                    </div>
+                    <img src="static/head1.png" style="width:200px; border-radius:50%;" />
+                </div>
+                <div>
+                    <span style="font-size:30px;">Austin Aguilera</span>
+                </div>
+                <div style="color:dimgrey; font-size:20px;">
+                    <span>Student in Management Information Systems</span>
+                    <br />
+                    <br />
+                    <span>The University of Oklahoma</span>
                 </div>
 
+                <div>
+                    <a href="mailto:austinaguilera.aa@gmail.com" target="_blank">
+                        <img src="static/email.png" style="width:30px;" />
+                    </a>
+                    <a href="https://linkedin.com" target="_blank">
+                        <img src="static/linkedin.png" style="width:30px;" />
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="static/twitter.png" style="width:30px;" />
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="static/instagram.png" style="width:30px;" />
+                    </a>
+                </div>
             </div>
 
             <div id="rightdiv">
-                <div id="updiv">
-                    <div style="font-weight:bold;font-size:30px;">Biography</div>
+                <div id="upperdiv">
+                    <span style="font-weight:bold; font-size:30px;">Biography</span>
                     <br />
                     <br />
                     <div>
-                        I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market. <br /><br />
-
-                        My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.<br /><br />
-
-                        For more information, please refer to my CV.
+                        I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.
+                        <br />
+                        <br />
+                        My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.
+                        <br />
+                        <br />
+                        For more information, please refer to my
+                        <a href="static/cv.pdf" target="_blank">CV.</a>
                     </div>
                 </div>
-                
+
+                <br />
+
+                <div id="lowerdiv">
+                    <div id="idiv">
+                        <span style="font-weight:bold; font-size:30px;">Interests</span>
+
+                        <ol>
+                            <li>Analyst/Programmer</li>
+                            <li>Business Analyst</li>
+                            <li>Database Adminstration</li>
+                            <li>Web Developer</li>
+                            <li>Data Scientists</li>
+                        </ol>
+                    </div>
+
+                    <div id="ediv">
+                        <span style="font-weight:bold; font-size:30px;">Education</span>
+                        <ul>
+                            <li>
+                                M.S. in Management Information Systems, 2024
+                                The University of Oklahoma
+                            </li>
+                            <li>
+                                B.E. in Management Information Systems, 2022
+                                The University of Oklahoma
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
+
+
         </div>
-        
+
+        <div id="content2">
+            <div>
+                <span style="font-weight:bold; font-size:30px;">Recent News</span>
+            </div>
+       
+            <div>
+                <ul>
+                    <li>Learning C# Web Application Design</li>
+                    <li>Learning C# WPF</li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div id="footer">
+            <span style="color:dimgrey;">Designed by Austin Aguilera</span>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     </div>
 
 
 
-
-
-
-
 </body>
-
-
-
-
 
 
 
